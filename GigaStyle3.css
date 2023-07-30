@@ -29,13 +29,13 @@
  }
 
  .hero1-inner a{
-  font-size: 12px;
+  font-size: 14px;
   padding: 10px 20px!important;
   margin-left: 15px;
 }
 
 .hero1-inner img{
-  padding-left: 14px;
+  padding-left: 15px;
 }
  
  .hero1-inner h1{
@@ -59,7 +59,7 @@
 /* Second Cointainer */
 
 .shopping-image{
-  padding-left:17px;
+  padding-left:18px;
   width: 100%;
 }
 
@@ -91,7 +91,7 @@
 
 .hotel-text-image{
   width: 100%;
-  padding-left: 17px;
+  padding-left: 18px;
 }
 
 .hotel-text-image img{
