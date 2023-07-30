@@ -1,0 +1,255 @@
+@media screen and (max-width:350px) {
+
+  /* Seventh Container */
+  /* Seventh Container */
+  /* Seventh Container */
+  /* Seventh Container */
+  
+  .about{
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 500px){
+
+   /* First Cointainer */
+   /* First Cointainer */
+   /* First Cointainer */
+  /* First Cointainer */
+
+  .Hero-Section, .Hero-Section-Inner{
+    padding-left: 0px;
+ }
+
+ .hero1, .hero1-inner{
+   width: 100%;
+ }
+
+ .hero1-inner a{
+  font-size: 12px;
+  padding: 10px 20px!important;
+  margin-left: 15px;
+}
+
+.hero1-inner img{
+  padding-left: 13px;
+}
+ 
+ .hero1-inner h1{
+     padding-left: 16px;
+ }
+ 
+ .hero1-inner p{
+     font-size: 18px;
+     padding-left: 16px; 
+ }
+
+.hero-image img{
+  width: 100%;
+  padding-left: 15px;
+}
+
+
+/* Second Cointainer */
+/* Second Cointainer */
+/* Second Cointainer */
+/* Second Cointainer */
+
+.shopping-image{
+  padding-left:15px;
+  width: 100%;
+}
+
+.shopping-image img{
+  width: 85%;
+}
+
+.shopping-text{
+  padding-left: 16px;
+  margin-top: -35px;
+  width: 100%;
+}
+.shopping-text h2{
+  font-size: 25px;
+}
+
+.shopping-text p{
+  font-size: 18px;
+}
+
+.shop{
+  display: none;
+}
+
+/* Third Container */
+/* Third Container */
+/* Third Container */
+/* Third Container */
+
+.hotel-text-image{
+  width: 100%;
+  padding-left: 15px;
+}
+
+.hotel-text-image img{
+  width: 70%;
+}
+
+.hotel-text{
+  font-size: 25px;
+  padding-left: 16px;
+}
+
+.hotel-text p{
+  font-size: 18px;
+}
+
+.hotel{
+  display: none;
+}
+
+/* Fourth Container */
+/* Fourth Container */
+/* Fourth Container */
+/* Fourth Container */
+
+.OrderRide-image{
+  width: 100%;
+  padding-left:16px;
+}
+
+.OrderRide-image img{
+  width: 80%;
+}
+
+.OrderRide-text{
+  width: 100%;
+  padding-left: 16px;
+} 
+
+.OrderRide-text p{
+  font-size: 18px;
+}
+
+.ride{
+  display: none;
+}
+
+/* Fifth Container */
+/* Fifth Container */
+/* Fifth Container */
+/* Fifth Container */
+
+.chat-and-ads, .chat-and-ads-inner{
+  padding-left: 0px;
+}
+
+.chat, .chat-inner{
+  width: 100%;
+  padding-left: 7.5px;
+}
+
+.chat-inner p{
+  font-size: 18px;
+  width: 100%;
+}
+
+.chat-inner img{
+  width: 70%;
+}
+
+.ads, .ads-inner{
+  width: 100%;
+  padding-left: 10px;
+}
+
+.ads-inner p{
+  font-size: 18px;
+  width: 100%;
+}
+
+.ads-inner img{
+  width: 85%;
+}
+
+/* Sixth Container */
+/* Sixth Container */
+/* Sixth Container */
+/* Sixth Container */
+
+.download-giga-app-design1, .download-giga-app-design1-inner{
+  padding-left: 16px;
+  width: 100%;
+}
+
+.google-play, .google-play-inner,.apple-store, .apple-store-inner{
+  width: 90%;
+}
+
+.download-giga-app-design2-inner img{
+  width: 80%;
+  padding-left: 23px;
+}
+
+/* Seventh Container */
+/* Seventh Container */
+/* Seventh Container */
+/* Seventh Container */
+
+.about-us-text p{
+  font-size: 18px;
+}
+
+.about-us-image{
+  padding-left: 0px;
+ text-align: center;
+ width: 100%;
+}
+
+.about-us-image img{
+  width: 90%;
+}
+
+/* Eight Container */
+/* Eight Container */
+/* Eight Container */
+/* Eight Container */
+
+
+.socials a img{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    

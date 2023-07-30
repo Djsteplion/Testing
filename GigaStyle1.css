@@ -1,0 +1,411 @@
+@import url('satoshi.css');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Satoshi-Medium';
+    overflow-x: hidden;
+    position: relative;
+}
+
+.header-nav-inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #DC7EE8;
+}
+
+.header-nav-inner img{
+    padding-left: 50px;
+}
+
+.nav{
+    padding-top: 35px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+}
+
+.nav a{
+    display: inline-block;
+    text-decoration-line: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 17px;
+    transition: 0.5s;
+}
+
+.nav a img{
+    padding-left: 5px;
+    margin-left: 0px;
+}
+.nav a:hover{
+    color: #DC7EE8;
+    cursor: pointer;
+}
+
+/* Menu */
+/* Menu */
+
+.menu{
+    display: none;
+}
+
+.mySidenav{
+    height: 100%;
+    width: 0;
+    top:0;
+    right: 0;
+    position: fixed;
+    background-color: #DC7EE8;
+    opacity: 0.9;
+    z-index: 1;
+    padding-top: 70px;
+    transition: 0.5s;
+}
+
+.mySidenav a{
+    text-decoration: none;
+    display:block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 8px 8px 32px;
+    color: white;
+    transition: 0.3s;
+    border-bottom: 3px solid white;
+}
+
+.mySidenav a:hover{
+    color:black;
+}
+ 
+.closebtn{
+    text-align: left;
+    top: 0;
+    font-size: 45px;
+}
+
+
+/* First Cointainer */
+/* First Cointainer */
+/* First Cointainer */
+/* First Cointainer */
+
+.Hero-Section, .Hero-Section-Inner{
+    width: 100%;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.hero1, .hero1-inner{
+    width: 65%;
+}
+
+.hero1-inner p{
+    font-size: 22px;
+}
+
+.hero1-inner img{
+    width: 82% ;
+    padding: 10px 0;
+}
+
+.hero1-inner a{
+    display: block;
+    text-decoration-line: none;
+    color: white;
+    font-size: 20px;
+    background-color: #DC7EE8;
+    padding: 18px 25px;
+    text-align: center;
+    width: 60%;  /* Take note,the width of the "get-started" button is set to 60% of the hero1-inner container*/
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.hero1-inner a:hover{
+    background-color: transparent;
+    color: #DC7EE8;
+    border: 1px solid #DC7EE8;
+    cursor: pointer;
+}
+
+.hero2, .hero2-inner{
+    background-image: url("Ellipse 103.png");
+    background-size: contain;
+    background-repeat: repeat;
+    position: relative;
+    margin-right: 100px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.hero-image{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.hero-image img{
+    width: 100%;
+    padding-left: 30px;
+}
+
+/* Second Cointainer */
+/* Second Cointainer */
+/* Second Cointainer */
+/* Second Cointainer */
+
+.shopping-container, .shopping-inner{
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+}
+
+.shopping-image{
+    width: 50%;
+    padding-left:70px;
+}
+
+.shopping-image img{
+    width: 70%;
+}
+
+.shopping-text{
+    width: 50%;
+    font-size: 25px;
+    padding-left: 65px;
+} 
+
+/* Third Container */
+/* Third Container */
+/* Third Container */
+/* Third Container */
+
+.hotel-container, .hotel-inner{
+    width:100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-text{
+    font-size: 25px;
+    padding-left: 60px;
+}
+
+.hotel-text-image{
+    width: 50%;
+    padding-left: 30px;
+}
+
+/* Fourth Container */
+/* Fourth Container */
+/* Fourth Container */
+/* Fourth Container */
+
+.OrderRide-container, .OrderRide-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.OrderRide-image{
+    width: 50%;
+    padding-left:70px;
+}
+
+.OrderRide-image img{
+    width: 70%;
+}
+
+.OrderRide-text{
+    width: 50%;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 65px;
+} 
+
+/* Fifth Container */
+/* Fifth Container */
+/* Fifth Container */
+/* Fifth Container */
+
+.chat-and-ads, .chat-and-ads-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #EDE1EF;
+    padding-top: 30px;
+    border-bottom: 5px solid #DC7EE8;
+}
+
+.chat, .chat-inner{
+    width: 50%;
+    padding-left: 35px;
+    padding-bottom: 50px;
+}
+
+.chat-inner p{
+    font-size: 25px;
+}
+
+.chat-inner img{
+    width: 99.7%;
+}
+
+.ads, .ads-inner{
+    width: 50%;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+
+.ads-inner p{
+    font-size: 25px;
+}
+
+.ads-inner img{
+    width: 90%;
+}
+
+/* Sixth Container */
+/* Sixth Container */
+/* Sixth Container */
+/* Sixth Container */
+
+.download-giga-app, .download-giga-app-inner{
+    clear: both;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-giga-app-design1, .download-giga-app-design1-inner{
+ 
+  padding-left: 27px;
+  padding-top: 100px;
+}
+
+.download-giga-app-design1-inner h1{
+   font-size: 45px;
+}
+
+.google-play-inner:hover, .apple-store-inner:hover{
+    cursor: pointer;
+} 
+
+.download-giga-app-design2, .download-giga-app-design2-inner{
+    width: 50%;
+    padding-top: 65px;
+    overflow-x: visible!important;
+}
+
+.download-giga-app-design2-inner img{
+    padding-left: 0px;
+}
+
+.google-play, .google-play-inner{
+    display: flex;
+    background: black;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.google-play-text a, .apple-store-text a{
+    padding-left: 7px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.google-play-text a:hover, .apple-store-text a:hover{
+    color: #DC7EE8;
+}
+
+.big{
+    font-size: 35px;
+}
+
+.apple-store, .apple-store-inner{
+    display: flex;
+    background: black;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 20px;  
+}
+
+.purple-hill-image, .purple-hill-image img{
+    margin-top: -40px;
+}
+
+
+
+/* Seventh Container */
+/* Seventh Container */
+/* Seventh Container */
+/* Seventh Container */
+
+.about-us, .about-us-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.about-us-text{
+    font-size: 25px;
+    padding-left: 70px;
+}
+
+.about-us-image{
+    width: 50%; 
+}
+
+.about-us-image img{
+    width: 80%;
+}
+
+/* Eight Container */
+/* Eight Container */
+/* Eight Container */
+/* Eight Container */
+.footer-container, .footer-container-inner{
+    width: 100%;
+    padding: 40px 37px;
+    background: #DC7EE8;
+}
+.giga-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.giga-links a{
+    display: block;
+    font-size: 27px;
+    text-decoration-line: none;
+    color: white;
+    transition: 3s;
+    padding-bottom: 20px;
+}
+
+.giga-links a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.socials{
+    padding-left: 0px!important;
+    margin-left: 0px;
+}
+
+.socials a img{
+    transition: 0.5s;
+}
+
+.socials a img:hover{
+    transform: translateY(-10px);
+}
