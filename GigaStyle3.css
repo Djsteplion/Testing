@@ -133,6 +133,7 @@
 .OrderRide-text{
   width: 100%;
   padding-left: 16px;
+  padding-right: 14px;
 } 
 
 .OrderRide-text p{
@@ -155,6 +156,7 @@
 .chat, .chat-inner{
   width: 100%;
   padding-left: 7.5px;
+  padding-right: 11px;
 }
 
 .chat-inner p{
